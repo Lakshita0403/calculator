@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url(./Images-1/w5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.6; */
+}
+
+.calculator {
+    background: transparent;
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 20px;
+  
+}
+
+
+
+input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: transparent;
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+form .disp {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .disp input{
+    text-align: right;
+    font-size: 45px;
+    width: 325px;
+    padding: 20px;
+    /* flex: 1; */
+    /* box-shadow: none; */
+}
+
+form input.equal
+{
+    width: 145px;
+}
+
+form input.operator
+{
+    color: rgb(227, 209, 4);
+}
